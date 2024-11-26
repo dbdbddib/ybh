@@ -13,4 +13,8 @@ public class CategoryWebController {
     public String categoryPage() {
         return "category/category"; // templates/category/category.html
     }
+    @GetMapping("/seoul")
+    public String categorySeoul() {
+        return "category/seoul"; // templates/category/category.html
+    }
 }
